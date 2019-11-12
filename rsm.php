@@ -2,8 +2,8 @@
 /*
 Plugin Name: Best Practices Reminder
 Description: Best Practices Reminder, directly from the handbook!
-Plugin URI:  https://valet.io/
-Author:      Josh&Milos
+Plugin URI:  https://mmilosevic.com/
+Author:      Milos
 Version:     1.0.1
  */
 
