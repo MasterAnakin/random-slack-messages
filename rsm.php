@@ -150,7 +150,7 @@ function bpr_send_message_to_slack($bpr_message) {
 
 	//slack webhook logic
 
-	define('SLACK_WEBHOOK', 'https://hooks.slack.com/services/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');
+	define('SLACK_WEBHOOK', 'add_URL');
 	// Make your message
 	$message = array('payload' => json_encode(array('text' => $bpr_message)));
 	// Use curl to send your message
