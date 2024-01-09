@@ -83,7 +83,6 @@ function bpr_post_get() {
 	$post_id = $slack_message_post->ID;
 
 	return ( $post_id );
-
 }
 
 /**
@@ -121,7 +120,6 @@ function bpr_add_metabox() {
 		);
 
 	}
-
 }
 add_action( 'add_meta_boxes', 'bpr_add_metabox' );
 
@@ -186,7 +184,6 @@ function bpr_run_cron() {
 	bpr_update_post_timestamp( $post_id );
 	$bpr_message = get_post_field( 'post_content', $post_id );
 	bpr_send_message_to_slack( $bpr_message );
-
 }
 
 add_action( 'bpr_time_set', 'bpr_run_cron' );
